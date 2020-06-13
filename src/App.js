@@ -9,7 +9,7 @@ function App() {
   return (
     <div className={'box'}>
       <Class4  counter={count}/>
-      <button onClick={() => setCount(count + 1)}>
+      <button onClick={() => setCount(count + 3)}>
         Click me
       </button>
     </div>
