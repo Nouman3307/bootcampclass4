@@ -8,7 +8,7 @@ function App() {
   let [isMorning, setMorning] = useState(false)
 
   return (
-    <div className={`-box ${isMorning ? 'dayLight' : ''}`}>
+    <div className={`box ${isMorning ? 'night' : ''}`}>
       <h1>Good {isMorning ? 'Morning' : 'Night'}</h1>
       <Class4  counter={count}/>
       <button onClick={() => setCount(count + 3)}>
