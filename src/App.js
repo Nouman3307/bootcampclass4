@@ -14,6 +14,9 @@ function App() {
       <button onClick={() => setCount(count + 3)}>
         Click me
       </button>
+      <button onClick={() => setMorning(!isMorning)}> 
+        Update Day
+      </button>
     </div>
   );
 }
